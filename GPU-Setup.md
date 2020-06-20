@@ -51,10 +51,10 @@ pip install  tensorflow-gpu
 conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 
 ### 7. TEST Tensorflow
-
+tf.test.is_built_with_cuda()
 
 ### 8. TEST Pytorch
-
+torch.cuda.is_available()
 
 #### REFERENCE:
 1. https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781
